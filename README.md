@@ -77,3 +77,31 @@ Run it (F5).
 5. If everything works, start Spyder:
   spyder &
   and run the same file there.
+
+## 🎧 Step 6: Verify audio processing libraries
+Run audio_processing_example.py from Examples folder.
+   python audio_processing_example.py
+   
+If everything is installed correctly, a plot with a waveform will appear.
+
+## 🧠 Summary
+You now have a complete environment with all tools needed for Deep Learning and Speech Processing experiments:
+   1. Python 3.10
+   2. PyTorch, TorchAudio, TorchVision
+   3. Spyder IDE
+   4. NumPy, SciPy, Matplotlib, Pandas, scikit-learn
+   4. Librosa, SoundFile, TQDM, and Jupyter
+
+## 🧩 Quick test checklist
+Step	Description	Command
+✅	Check Conda	conda --version
+✅	Create environment	conda create -n dl_env python=3.10
+✅	Install libraries	conda install pytorch torchvision torchaudio cpuonly -c pytorch
+✅	Run PyTorch test	python test_torch_gpu.py
+✅	Run Librosa test	python audio_processing_example.py
+
+## 💬 Common issues
+1. Spyder not detecting environment: Go to Tools → Preferences → Python Interpreter → Use the following interpreter and select your dl_env path.
+2. Librosa error with soundfile: Run pip install soundfile.
+3. CUDA not detected: Ensure you installed the correct CUDA toolkit version for your GPU and drivers.
+
