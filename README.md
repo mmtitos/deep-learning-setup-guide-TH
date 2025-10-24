@@ -8,12 +8,14 @@ This repository explains how to install **Anaconda**, **Spyder**, **PyTorch**, a
 3. Verify installation:
    ```bash
    conda --version
+   ```
 
 ## 🧰 Step 2: Create and activate a new environment
 We will create a dedicated environment for Deep Learning and Speech Processing.
 ```bash
 conda create -n dl_env python=3.10
 conda activate dl_env
+```
 
 ## 🧪 Step 3: Install the required libraries
 🔹 Option 1 — CPU version (recommended if you do not have a GPU)
