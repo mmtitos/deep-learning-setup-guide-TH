@@ -1,4 +1,4 @@
-🔹 Proyectos de nivel básico (1 estudiante o pareja)
+## 🔹 Proyectos de nivel básico (1 estudiante o pareja)
 Enfocados en comprender el flujo completo: adquisición → procesado → clasificación o síntesis.
 Clasificador de sonidos del habla vs. ruido ambiental
 Entrenamiento de una red neuronal para distinguir voz humana de ruido.
@@ -16,7 +16,7 @@ Detección automática de palabras clave (“OK UGR”)
 Sistema tipo keyword spotting para activar una acción cuando detecta una palabra específica.
 Dataset: Google Speech Commands.
 Permite experimentar con CNNs o RNNs ligeras.
-🔹 Proyectos de nivel intermedio (grupos de 3–4 estudiantes)
+## 🔹 Proyectos de nivel intermedio (grupos de 3–4 estudiantes)
 Integran distintos módulos de procesamiento, reconocimiento o síntesis.
 Sistema básico de reconocimiento automático del habla (ASR)
 Entrenar o adaptar un modelo speech-to-text con Wav2Vec2 o Whisper (Hugging Face).
@@ -30,7 +30,7 @@ Permite mostrar redes encoder–decoder y generación secuencial.
 Detector de acentos o dialectos del español
 Clasificar el acento de una muestra de voz (andaluz, castellano, latinoamericano…).
 Dataset: Common Voice (Mozilla) filtrado por país.
-🔹 Proyectos de nivel avanzado o integrador (grupos de 4–5 estudiantes)
+## 🔹 Proyectos de nivel avanzado o integrador (grupos de 4–5 estudiantes)
 Combina varias tecnologías del habla y requiere diseño de sistema completo.
 Asistente de voz local sin conexión
 Combina detección de palabra clave, reconocimiento de voz y síntesis de respuesta.
