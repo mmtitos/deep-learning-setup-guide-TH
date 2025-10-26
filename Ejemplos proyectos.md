@@ -1,9 +1,9 @@
 ## 🔹 Proyectos de nivel básico
 Enfocados en comprender el flujo completo: adquisición → procesado → clasificación o síntesis.
 ### 1. Clasificador de sonidos del habla vs. ruido ambiental
-  #### Entrenamiento de una red neuronal para distinguir voz humana de ruido.
-  Dataset: UrbanSound8K o grabaciones propias.
-  Objetivo: detección de actividad vocal (Voice Activity Detection).
+  Entrenamiento de una red neuronal para distinguir voz humana de ruido.  
+  Dataset: UrbanSound8K o grabaciones propias.  
+  Objetivo: detección de actividad vocal (Voice Activity Detection).  
 ### 2. Reconocimiento de emociones en el habla
   Clasificar emociones (alegría, enfado, tristeza, neutro) a partir del audio.
   Dataset: RAVDESS o CREMA-D.
