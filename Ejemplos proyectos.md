@@ -1,9 +1,9 @@
-## 🔹 Proyectos de nivel básico
+## 🔹 Proyectos de nivel básico (parejas)
 Enfocados en comprender el flujo completo: adquisición → procesado → clasificación o síntesis.
 ### 1. Clasificador de sonidos del habla vs. ruido ambiental
   Entrenamiento de una red neuronal para distinguir voz humana de ruido.  
   Dataset: UrbanSound8K o grabaciones propias.  
-  Objetivo: detección de actividad vocal (Voice Activity Detection).  
+  Objetivo: detección de actividad vocal.  
 ### 2. Reconocimiento de emociones en el habla
   Clasificar emociones (alegría, enfado, tristeza, neutro) a partir del audio.  
   Dataset: RAVDESS o CREMA-D.  
@@ -19,7 +19,7 @@ Enfocados en comprender el flujo completo: adquisición → procesado → clasif
 ## 🔹 Proyectos de nivel intermedio (grupos de 3–4 estudiantes)
 Integran distintos módulos de procesamiento, reconocimiento o síntesis.  
 ### 1. Sistema básico de reconocimiento automático del habla (ASR)
-  Entrenar o adaptar un modelo speech-to-text con Wav2Vec2 o Whisper (Hugging Face).  
+  Entrenar o adaptar un modelo speech-to-text.  
   Aplicación: transcripción de grabaciones cortas o comandos simples.  
   Conversor de voz a texto con análisis semántico.  
 ### 2. Transcribir y analizar sentimientos o intenciones en la voz.
