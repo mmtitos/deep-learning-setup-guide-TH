@@ -21,13 +21,10 @@ Integran distintos módulos de procesamiento, reconocimiento o síntesis.
 ### 1. Sistema básico de reconocimiento automático del habla (ASR)
   Entrenar o adaptar un modelo speech-to-text.  
   Aplicación: transcripción de grabaciones cortas o comandos simples.  
-  Conversor de voz a texto con análisis semántico.  
-### 2. Transcribir y analizar sentimientos o intenciones en la voz.
-  Combina ASR + modelo de lenguaje (transformer).  
-  Conversor texto-voz (TTS) personalizado.  
-### 3. Generar voz sintética.
+  Conversor de voz a texto con análisis semántico.   
+### 2. Generar voz sintética.
   Permite mostrar redes encoder–decoder y generación secuencial.  
-### 4. Detector de acentos o dialectos del español
+### 3. Detector de acentos o dialectos del español
    Clasificar el acento de una muestra de voz (andaluz, castellano, latinoamericano…).  
   Dataset: Common Voice.  
 ## 🔹 Proyectos de nivel avanzado o integrador (grupos de 4–5 estudiantes)
