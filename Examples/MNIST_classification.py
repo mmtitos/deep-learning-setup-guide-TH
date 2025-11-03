@@ -17,15 +17,15 @@ train_loader = DataLoader(
 )
 
 
-class BadNet(nn.Module):
+class MyNet(nn.Module):
     def __init__(self):
-        super(BadNet, self).__init__()
-        self.fc1 = nn.Linear(28*28, 10)  # <-- Sin capa oculta
+        super(MyNet, self).__init__()
+        self.fc1 = nn.Linear(28*28, 10)
     def forward(self, x):
         x = x.view(-1, 28*28)
-        return self.fc1(x)  # <-- Sin activación no lineal
+        return self.fc1(x)
 
-model = BadNet()
+model = MyNet()
 
 
 criterion = nn.MSELoss() 
